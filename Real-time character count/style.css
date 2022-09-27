@@ -1,0 +1,52 @@
+:root{
+    --bg:#4C0033;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--bg);
+    font-family: cursive;
+}
+
+.container{
+    background-color: #ECC5FB;
+    border-radius: .625rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    margin: .3125rem;
+    padding: 1.625rem;
+    width: 25rem;
+}
+
+.textarea{
+    border: solid 2px darkgray;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    height: 6.25rem;
+    padding: .625rem;
+    resize: none;
+    width: 100%;
+}
+
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.counter-container p{
+    font-size: 1.125rem;
+    color: gray;
+}
+
+.total-counter{
+  color: blue;
+}
+
+.remaining-counter{
+  color: orangered;
+}
