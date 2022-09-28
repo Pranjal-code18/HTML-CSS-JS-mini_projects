@@ -1,0 +1,31 @@
+body{
+    background-color: #eee;
+    font-family: cursive;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container{
+    background-color: orange;
+    width: 18.75rem;
+    height: 9.375rem;
+    color: #fff;
+    display: flex;
+    margin: .3125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5625rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+    border: solid black 2px;
+    border-radius: .625rem;
+}
